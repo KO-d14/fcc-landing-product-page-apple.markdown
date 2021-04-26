@@ -1,0 +1,181 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header id="header">
+
+  <nav id="nav-bar">
+    <a href="https://www.apple.com/?afid=p238%7CseIEs444j-dc_mtid_1870765e38482_pcrid_490032927326_pgrid_13945964887_&cid=aos-us-kwgo-brand-apple--slid---product-" target="_blank"><img id="header-img" class="apple-img" src="https://specials-images.forbesimg.com/imageserve/ccc40b5ba80343389e2e99460ec82e4c/960x0.jpg?fit=scale" alt="Apple Logo"> </a>
+    <ul>
+      <li class="nav-link"><a href="#macsection">Mac</a></li>
+      <li class="nav-link"><a href="#ipadsection">iPad</a></li>
+      <!-- WATCH OUT FOR SYNTAX ERRORS- -->
+      <li class="nav-link"><a href="#iphonesection">iPhone</a></li>
+      <li class="nav-link"><a href="#watchsection">Watch</a></li>
+      <li class="nav-link"><a href="#tvsection">TV</a></li>
+      <li class="nav-link"><a href="#musicsection">Music</a></li>
+      <li class="nav-link"><a href="#supportsection">Support</a> </li>
+    </ul>
+  </nav>
+</header>
+
+<div class="side-info-container">
+  <p class="online-shop"><a class="link shop" href="https://www.apple.com/shop" target="_blank"> Shop online</a> and get Specialists help, free no-contact delivery, and more. </p>
+</div>
+<!------------------iPHONE SECTION------------------>
+<section id="iphonesection">
+  <div class="promo-container">
+    <img class="promo-img" src="https://www.apple.com/v/iphone/buy/g/images/meta/og__c6pnqxxo9e6a.jpg?202103101232" alt="Image of iPhones">
+
+    <div class="iphone-content">
+      <h1 class="iphone-info">iPhone 12</h1>
+      <h3 class="iphone-info"> Sleek. Powerful. Durable.</h3>
+      <p class="p-gray iphone-info">From $29.12 a mo. for 24 mo. or $699 before trade in.<br>
+        Buy directly from Apple with special carrier offers.
+      </p>
+      <a class="link large  iphone-info" href="https://www.apple.com/iphone-12/" target="_blank"> Learn more </a>
+      <a class="link large iphone-info" href="https://www.apple.com/shop/buy-iphone/iphone-12" target="_blank"> Buy </a>
+    </div>
+
+  </div>
+
+  <div class="promo-vid">
+    <h2 class="hello-header"><span style="color: white;"> Meet iPhone 12</span></h2>
+    <iframe id="video" width="420" height="345" src="https://www.youtube.com/embed/9_JwxaQIU0I?rel=0&amp;modestbranding=1&amp;autohide=1&showinfo=0&autoplay=1&mute=1&controls=0&loop=1" frameborder="0">
+    </iframe>
+    <!-- NEW LEARNED: 
+        after https link add "?(paramater)=0/1" <- like on or off "
+        to ADD PARAMETERS- add "&(parameter)=0/1"-->
+    <!--NOTE TO SELF: adding modestbranding, autohide, etc didn't do much? Even websites showing the before and after had no difference, so maybe parameters are deprecated? -->
+    <div class="order-container">
+      <h2><span style="color: white">Order today. </span> </h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+        <!-- I didn't get step#11 bc I didnt put the END TAGE SLASH- SYNTAX ERROR-->
+        <br>
+        <input id="submit" type="submit" value="Order">
+        <!-- NEW: used the type="submit" which shows just like a button -->
+        <br>
+        <a class="link large blackbg" href="">Learn more </a>
+      </form>
+      <!-- Initially had 11/16 on test. Make sure to put </form> OUTSIDE of <input>  ie <form> <input /> </form> -->
+    </div>
+  </div>
+</section>
+<!------------------------------------------------->
+
+<div class="grid-container">
+  <!---*************   MACBOOK    *******-------------->
+
+  <section id="macsection">
+    <div class="mac-container">
+
+      <div class="mac-info-container">
+        <h2>MacBook Pro</h2>
+        <h3>The world a fingertip away.</h3>
+        <p> </p>
+        <a class="link small" href="https://www.apple.com/mac/" target="_blank"> Learn more</a>
+        <a class="link small" href="https://www.apple.com/shop/buy-mac/macbook-pro/13-inch" target="_blank"> Buy </a>
+      </div>
+
+      <div class=".mac-img-container">
+        <img class="mac-img " src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-silver-select-202011?wid=1280&hei=1190&fmt=jpeg&qlt=80&.v=1613673938000" alt="Macbook Image">
+      </div>
+    </div>
+  </section>
+  <!--**********************************************-->
+
+  <!--***************iPAD SECTION **********-->
+  <section id="ipadsection">
+    <div class="ipad-info-container">
+      <h2>iPad Air</h2>
+      <h3>Beautifully crafted design.</h3>
+      <a class="link small" href="https://www.apple.com/ipad-air/" target="_blank"> Learn more</a>
+      <a class="link small" href="https://www.apple.com/shop/buy-ipad/ipad-air" target="_blank"> Buy </a>
+    </div>
+    <div class="ipad-img-container">
+      <img class="ipad-img" src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/09/16/apple-ipad-air-4-cs-2-888157-1600263860.jpg?itok=8RcwpMZT" alt="Image of iPad">
+    </div>
+  </section>
+
+  <!--*********** WATCH *****************-->
+
+  <section id="watchsection">
+    <div class="watch-container">
+
+      <div class="watch-header-container">
+        <img class="apple-img watch logo" src="https://specials-images.forbesimg.com/imageserve/ccc40b5ba80343389e2e99460ec82e4c/960x0.jpg?fit=scale" alt="Apple Logo">
+        <h2 class="watch-header apple-header "> WATCH</h2>
+      </div>
+
+      <h4>SERIES 6</h4>
+      <h3 class="watch-h3"> Your health more convenient than ever.</h3>
+      <a class="link small blackbg" href="https://www.apple.com/apple-watch-series-6/" target="_blank"> Learn more</a>
+      <a class="link small blackbg" href="https://www.apple.com/shop/buy-watch/apple-watch" target="_blank"> Buy </a>
+    </div>
+
+    <div class="watch-img-container">
+      <img class="watch-img" src="https://images.idgesg.net/images/article/2020/09/apple-watch-series-6-colors-100857508-large.jpg" alt="Apple Watch Image">
+    </div>
+  </section>
+
+  <!-- *************** TV ***************-->
+  <section id="tvsection">
+    <div class="tv-container">
+
+      <div class="tv-header-container">
+        <img class="apple-img tv logo" src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="Apple logo image">
+        <h2>tv+</h2>
+      </div>
+
+      <div class="fluff">
+        <h3>It's not a <span style="color: red; font-size: 30px"> <strong>FLUFF. </strong></span> </h3>
+        <h2 class="fluff-header">Without Gabriel Iglesias</h2>
+        <a class="link fluff-link" href="https://www.apple.com/tv/" target="_blank"> Watch now</a>
+      </div>
+    </div>
+  </section>
+  <!--***********************************-->
+
+  <!--************* CARD *********************-->
+  <section id="cardsection">
+    <div class="card-container">
+
+      <div class="card-header-container">
+        <img class="apple-img tv logo" src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="Apple logo image">
+        <h2>Card</h2>
+      </div>
+      <div>
+        <p class="card-p"> Get 3% Daily Cash back on purchases from Apple when you use Apple Card</p>
+        <a class=" link small" href="https://www.apple.com/apple-card/" target="_blank">Learn more</a>
+        <img src="https://static.dezeen.com/uploads/2019/03/apple-card-design_dezeen_2364_sq-1-1.jpg" alt="Apple Card Image">
+
+      </div>
+    </div>
+  </section>
+
+  <!--*************MUSIC  ****************-->
+  <section id="musicsection">
+    <div class="music-container">
+
+      <div class="music-header-container">
+        <img class="apple-img music logo" src="https://specials-images.forbesimg.com/imageserve/ccc40b5ba80343389e2e99460ec82e4c/960x0.jpg?fit=scale" alt="Apple Logo">
+        <h2 class="music-header white"> Music</h2>
+      </div>
+
+      <h3 class="white">Leisure redefined.</h3>
+      <a class="link small" href="https://www.apple.com/music/" target="_blank">Learn more</a>
+
+      <div class="music-img-container">
+        <img class="music-img" src="https://media.idownloadblog.com/wp-content/uploads/2018/03/Apple-Music-icon-003.jpg" alt="Apple Music Image">
+      </div>
+    </div>
+  </section>
+  <!--***********************************-->
+
+  <!--************************************** SUPPORT **************************************-->
+
+  <footer id="supportsection">
+    <p class="section-p">More ways to shop: <a class="link" href="https://www.apple.com/retail/" target="_blank">Find an Apple Store</a> or <a class="link" href="https://locate.apple.com/" target="_blank">other retailer</a> near you. Or call 1-800-MY-APPLE. <br> Copyright 2021 Apple Inc. <span style="font-size: 12px">All Rights Reserved. </span></p>
+    <p><em><span style="color: red">Note: Soley for educational purposes created by <strong>KO-d14</strong></span></em></p>
+  </footer>
+
+</div>
